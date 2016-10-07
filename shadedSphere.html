@@ -54,8 +54,6 @@ main()
 
 <script id="fragment-shader" type="x-shader/x-fragment">
 //fragment shader -- Gouraud Shading
-// nothing to do here :).  Gouraud shading uses the colors defined at the vertices and 
-// interpolates the colors. Thus, the "default" fragment shader is sufficient.
 precision mediump float;
 
 varying vec4 fColor;
@@ -70,8 +68,6 @@ main()
 
 <script id="vertex-shader-phong" type="x-shader/x-vertex">
 //vertex shader -- Phong shading
-// Phong shading defines the N, L, and E vectors at each vertex, and passes them to the fragment shader
-// other than checking the light point vs. direction values, this code can stay the same
 
 attribute vec4 vPosition;
 attribute vec4 vNormal;
