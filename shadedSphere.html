@@ -125,8 +125,6 @@ void main()
 }
 </script>
 
-
-
 <script type="text/javascript" src="../Common/webgl-utils.js"></script>
 <script type="text/javascript" src="../Common/initShaders.js"></script>
 
@@ -185,6 +183,38 @@ min="0.0" max="1.0" step="0.1" value="0.0" /> <span id="phiText">1.0</span><br>
     <option value="0">Gouraud Shading</option>
     <option value="1">Phong Shading</option>
 </select>
+<br>
+
+LIGHT PROPERTIES<br>
+
+Ambient Red <input id="lightAmbientRed" type="range"
+min="0.0" max="1.0" step=".1" value="0.2" /> <span id="lightAmbientRedText">1.0</span><br>
+
+Ambient Green <input id="lightAmbientGreen" type="range"
+min="0.0" max="1.0" step=".1" value="0.2" /> <span id="lightAmbientGreenText">1.0</span><br>
+
+Ambient Blue <input id="lightAmbientBlue" type="range"
+min="0.0" max="1.0" step=".1" value="0.2" /> <span id="lightAmbientBlueText">1.0</span><br>
+<br>
+
+Diffuse Red <input id="lightDiffuseRed" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightDiffuseRedText">1.0</span><br>
+
+Diffuse Green <input id="lightDiffuseGreen" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightDiffuseGreenText">1.0</span><br>
+
+Diffuse Blue <input id="lightDiffuseBlue" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightDiffuseBlueText">1.0</span><br>
+<br>
+
+Specular Red <input id="lightSpecularRed" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightSpecularRedText">1.0</span><br>
+
+Specular Green <input id="lightSpecularGreen" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightSpecularGreenText">1.0</span><br>
+
+Specular Blue <input id="lightSpecularBlue" type="range"
+min="0.0" max="1.0" step=".1" value="1.0" /> <span id="lightSpecularBlueText">1.0</span><br>
 <br>
 
 <div>

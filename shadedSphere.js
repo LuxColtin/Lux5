@@ -157,6 +157,60 @@ window.onload = function init() {
         init();
     };
 
+    document.getElementById("lightAmbientRed").onchange = function(event) {
+        lightAmbient[0] = event.target.value;
+        document.getElementById("lightAmbientRedText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightAmbientGreen").onchange = function(event) {
+        lightAmbient[1] = event.target.value;
+        document.getElementById("lightAmbientGreenText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightAmbientBlue").onchange = function(event) {
+        lightAmbient[2] = event.target.value;
+        document.getElementById("lightAmbientBlueText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightDiffuseRed").onchange = function(event) {
+        lightDiffuse[0] = event.target.value;
+        document.getElementById("lightDiffuseRedText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightDiffuseGreen").onchange = function(event) {
+        lightDiffuse[1] = event.target.value;
+        document.getElementById("lightDiffuseGreenText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightDiffuseBlue").onchange = function(event) {
+        lightDiffuse[2] = event.target.value;
+        document.getElementById("lightDiffuseBlueText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightSpecularRed").onchange = function(event) {
+        lightSpecular[0] = event.target.value;
+        document.getElementById("lightSpecularRedText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightSpecularGreen").onchange = function(event) {
+        lightSpecular[1] = event.target.value;
+        document.getElementById("lightSpecularGreenText").innerHTML = event.target.value;
+        init();
+    };
+
+    document.getElementById("lightSpecularBlue").onchange = function(event) {
+        lightSpecular[2] = event.target.value;
+        document.getElementById("lightSpecularBlueText").innerHTML = event.target.value;
+        init();
+    };
+
     document.getElementById("materialShininess").onchange = function(event) {
         materialShininess = event.target.value;
         document.getElementById("materialShininessText").innerHTML = event.target.value;
